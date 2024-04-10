@@ -1,0 +1,18 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply font to all elements */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Additional styles for .download-btn */
+.download-btn {
+    @apply bg-indigo-600 hover:bg-gray-100 hover:text-indigo-600 fill-white hover:fill-indigo-600 px-4 py-2 
+    flex text-white items-center gap-2 rounded;
+}
